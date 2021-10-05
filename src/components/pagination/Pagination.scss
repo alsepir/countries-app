@@ -1,0 +1,35 @@
+@import '../../theme.scss';
+
+.pagination-item {
+  position: relative;
+  cursor: pointer;
+  width: 28px;
+  height: 38px;
+  fill: $pagination-default;
+  color: $pagination-default;
+
+  &_active {
+    fill: $pagination-active;
+    color: $pagination-active
+  }
+  
+  &:hover {
+    fill: $pagination-active;
+    color: $pagination-active
+  }
+
+  &__icon {
+    fill: inherit;
+  }
+
+  &__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

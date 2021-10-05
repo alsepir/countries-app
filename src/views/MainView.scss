@@ -1,0 +1,14 @@
+@import '../theme.scss';
+
+.main-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  overflow-x: hidden;
+
+  &__content {
+    flex-grow: 1;
+    background-color: $content-background;
+  }
+}
